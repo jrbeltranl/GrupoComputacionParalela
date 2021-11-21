@@ -1,0 +1,660 @@
+BnW Read: 0.025398 (s) 
+ BnW Write: 0.241834 (s) 
+ BnW Process:  0.003794
+ Para la imagen 1280 x 720 - Con 2 Hilos - Tiempo Ejecución: 0.271043 (s) 
+ 
+BnW Read: 0.058751 (s) 
+ BnW Write: 0.576531 (s) 
+ BnW Process:  0.009194
+ Para la imagen 1920 x 1080 - Con 2 Hilos - Tiempo Ejecución: 0.644491 (s) 
+ 
+BnW Read: 0.246493 (s) 
+ BnW Write: 2.161362 (s) 
+ BnW Process:  0.034424
+ Para la imagen 3840 x 2160 - Con 2 Hilos - Tiempo Ejecución: 2.442292 (s) 
+ 
+BnW Read: 0.026760 (s) 
+ BnW Write: 0.268087 (s) 
+ BnW Process:  0.003497
+ Para la imagen 1280 x 720 - Con 4 Hilos - Tiempo Ejecución: 0.298357 (s) 
+ 
+BnW Read: 0.060083 (s) 
+ BnW Write: 0.620516 (s) 
+ BnW Process:  0.007898
+ Para la imagen 1920 x 1080 - Con 4 Hilos - Tiempo Ejecución: 0.688516 (s) 
+ 
+BnW Read: 0.282568 (s) 
+ BnW Write: 2.214650 (s) 
+ BnW Process:  0.020248
+ Para la imagen 3840 x 2160 - Con 4 Hilos - Tiempo Ejecución: 2.517481 (s) 
+ 
+BnW Read: 0.027521 (s) 
+ BnW Write: 0.260739 (s) 
+ BnW Process:  0.002035
+ Para la imagen 1280 x 720 - Con 8 Hilos - Tiempo Ejecución: 0.290309 (s) 
+ 
+BnW Read: 0.065923 (s) 
+ BnW Write: 0.603182 (s) 
+ BnW Process:  0.004616
+ Para la imagen 1920 x 1080 - Con 8 Hilos - Tiempo Ejecución: 0.673737 (s) 
+ 
+BnW Read: 0.258565 (s) 
+ BnW Write: 2.115115 (s) 
+ BnW Process:  0.017116
+ Para la imagen 3840 x 2160 - Con 8 Hilos - Tiempo Ejecución: 2.390814 (s) 
+ 
+BnW Read: 0.024529 (s) 
+ BnW Write: 0.261178 (s) 
+ BnW Process:  0.002261
+ Para la imagen 1280 x 720 - Con 16 Hilos - Tiempo Ejecución: 0.287979 (s) 
+ 
+BnW Read: 0.066477 (s) 
+ BnW Write: 0.590013 (s) 
+ BnW Process:  0.004931
+ Para la imagen 1920 x 1080 - Con 16 Hilos - Tiempo Ejecución: 0.661437 (s) 
+ 
+BnW Read: 0.263321 (s) 
+ BnW Write: 2.103609 (s) 
+ BnW Process:  0.017748
+ Para la imagen 3840 x 2160 - Con 16 Hilos - Tiempo Ejecución: 2.384692 (s) 
+ 
+Blur Read:  0.029318
+ Blur Read1:  0.030280
+ Blur Process:  0.017070
+ Blur Write:  0.385112
+ Para la imagen 1280 x 720 - Con 2 Hilos - Tiempo Ejecución: 0.461803 (s) 
+ 
+Blur Read:  0.059500
+ Blur Read1:  0.063215
+ Blur Process:  0.035592
+ Blur Write:  0.770058
+ Para la imagen 1920 x 1080 - Con 2 Hilos - Tiempo Ejecución: 0.928390 (s) 
+ 
+Blur Read:  0.248711
+ Blur Read1:  0.253560
+ Blur Process:  0.142632
+ Blur Write:  3.943749
+ Para la imagen 3840 x 2160 - Con 2 Hilos - Tiempo Ejecución: 4.588670 (s) 
+ 
+Blur Read:  0.027026
+ Blur Read1:  0.027081
+ Blur Process:  0.007434
+ Blur Write:  0.357693
+ Para la imagen 1280 x 720 - Con 4 Hilos - Tiempo Ejecución: 0.419251 (s) 
+ 
+Blur Read:  0.061155
+ Blur Read1:  0.061133
+ Blur Process:  0.017515
+ Blur Write:  0.979222
+ Para la imagen 1920 x 1080 - Con 4 Hilos - Tiempo Ejecución: 1.119042 (s) 
+ 
+Blur Read:  0.302401
+ Blur Read1:  0.267185
+ Blur Process:  0.074305
+ Blur Write:  4.056685
+ Para la imagen 3840 x 2160 - Con 4 Hilos - Tiempo Ejecución: 4.700596 (s) 
+ 
+Blur Read:  0.026997
+ Blur Read1:  0.027647
+ Blur Process:  0.007648
+ Blur Write:  0.373203
+ Para la imagen 1280 x 720 - Con 8 Hilos - Tiempo Ejecución: 0.435510 (s) 
+ 
+Blur Read:  0.061103
+ Blur Read1:  0.061061
+ Blur Process:  0.015205
+ Blur Write:  0.748085
+ Para la imagen 1920 x 1080 - Con 8 Hilos - Tiempo Ejecución: 0.885469 (s) 
+ 
+Blur Read:  0.297031
+ Blur Read1:  0.352450
+ Blur Process:  0.084177
+ Blur Write:  4.039451
+ Para la imagen 3840 x 2160 - Con 8 Hilos - Tiempo Ejecución: 4.773133 (s) 
+ 
+Blur Read:  0.037509
+ Blur Read1:  0.038151
+ Blur Process:  0.010042
+ Blur Write:  0.437153
+ Para la imagen 1280 x 720 - Con 16 Hilos - Tiempo Ejecución: 0.522879 (s) 
+ 
+Blur Read:  0.062276
+ Blur Read1:  0.061763
+ Blur Process:  0.015964
+ Blur Write:  0.790272
+ Para la imagen 1920 x 1080 - Con 16 Hilos - Tiempo Ejecución: 0.930293 (s) 
+ 
+Blur Read:  0.358014
+ Blur Read1:  0.353496
+ Blur Process:  0.084678
+ Blur Write:  4.143467
+ Para la imagen 3840 x 2160 - Con 16 Hilos - Tiempo Ejecución: 4.939682 (s) 
+ 
+BnW Read: 0.027820 (s) 
+ BnW Write: 0.262027 (s) 
+ BnW Process:  0.004422
+ Para la imagen 1280 x 720 - Con 2 Hilos - Tiempo Ejecución: 0.294279 (s) 
+ 
+BnW Read: 0.066966 (s) 
+ BnW Write: 0.593988 (s) 
+ BnW Process:  0.009735
+ Para la imagen 1920 x 1080 - Con 2 Hilos - Tiempo Ejecución: 0.670702 (s) 
+ 
+BnW Read: 0.257989 (s) 
+ BnW Write: 2.086369 (s) 
+ BnW Process:  0.036027
+ Para la imagen 3840 x 2160 - Con 2 Hilos - Tiempo Ejecución: 2.380401 (s) 
+ 
+BnW Read: 0.023728 (s) 
+ BnW Write: 0.245321 (s) 
+ BnW Process:  0.001957
+ Para la imagen 1280 x 720 - Con 4 Hilos - Tiempo Ejecución: 0.271020 (s) 
+ 
+BnW Read: 0.058791 (s) 
+ BnW Write: 0.579072 (s) 
+ BnW Process:  0.004470
+ Para la imagen 1920 x 1080 - Con 4 Hilos - Tiempo Ejecución: 0.642345 (s) 
+ 
+BnW Read: 0.274918 (s) 
+ BnW Write: 2.222623 (s) 
+ BnW Process:  0.019393
+ Para la imagen 3840 x 2160 - Con 4 Hilos - Tiempo Ejecución: 2.516951 (s) 
+ 
+BnW Read: 0.028288 (s) 
+ BnW Write: 0.272771 (s) 
+ BnW Process:  0.002121
+ Para la imagen 1280 x 720 - Con 8 Hilos - Tiempo Ejecución: 0.303196 (s) 
+ 
+BnW Read: 0.067426 (s) 
+ BnW Write: 0.599089 (s) 
+ BnW Process:  0.004639
+ Para la imagen 1920 x 1080 - Con 8 Hilos - Tiempo Ejecución: 0.671170 (s) 
+ 
+BnW Read: 0.281620 (s) 
+ BnW Write: 2.279150 (s) 
+ BnW Process:  0.020448
+ Para la imagen 3840 x 2160 - Con 8 Hilos - Tiempo Ejecución: 2.581237 (s) 
+ 
+BnW Read: 0.024252 (s) 
+ BnW Write: 0.242292 (s) 
+ BnW Process:  0.002067
+ Para la imagen 1280 x 720 - Con 16 Hilos - Tiempo Ejecución: 0.268624 (s) 
+ 
+BnW Read: 0.062870 (s) 
+ BnW Write: 0.556955 (s) 
+ BnW Process:  0.004530
+ Para la imagen 1920 x 1080 - Con 16 Hilos - Tiempo Ejecución: 0.624367 (s) 
+ 
+BnW Read: 0.261179 (s) 
+ BnW Write: 2.135365 (s) 
+ BnW Process:  0.021491
+ Para la imagen 3840 x 2160 - Con 16 Hilos - Tiempo Ejecución: 2.418054 (s) 
+ 
+Blur Read:  0.025045
+ Blur Read1:  0.026714
+ Blur Process:  0.015017
+ Blur Write:  0.351330
+ Para la imagen 1280 x 720 - Con 2 Hilos - Tiempo Ejecución: 0.418121 (s) 
+ 
+Blur Read:  0.062559
+ Blur Read1:  0.062566
+ Blur Process:  0.035238
+ Blur Write:  0.746719
+ Para la imagen 1920 x 1080 - Con 2 Hilos - Tiempo Ejecución: 0.907104 (s) 
+ 
+Blur Read:  0.264633
+ Blur Read1:  0.269910
+ Blur Process:  0.145850
+ Blur Write:  4.004643
+ Para la imagen 3840 x 2160 - Con 2 Hilos - Tiempo Ejecución: 4.685060 (s) 
+ 
+Blur Read:  0.027029
+ Blur Read1:  0.028050
+ Blur Process:  0.008125
+ Blur Write:  0.377137
+ Para la imagen 1280 x 720 - Con 4 Hilos - Tiempo Ejecución: 0.440354 (s) 
+ 
+Blur Read:  0.061226
+ Blur Read1:  0.061163
+ Blur Process:  0.016673
+ Blur Write:  0.775155
+ Para la imagen 1920 x 1080 - Con 4 Hilos - Tiempo Ejecución: 0.914233 (s) 
+ 
+Blur Read:  0.311122
+ Blur Read1:  0.352920
+ Blur Process:  0.092236
+ Blur Write:  4.088226
+ Para la imagen 3840 x 2160 - Con 4 Hilos - Tiempo Ejecución: 4.844531 (s) 
+ 
+Blur Read:  0.037699
+ Blur Read1:  0.037603
+ Blur Process:  0.009495
+ Blur Write:  0.427379
+ Para la imagen 1280 x 720 - Con 8 Hilos - Tiempo Ejecución: 0.512196 (s) 
+ 
+Blur Read:  0.061806
+ Blur Read1:  0.065616
+ Blur Process:  0.017710
+ Blur Write:  0.849622
+ Para la imagen 1920 x 1080 - Con 8 Hilos - Tiempo Ejecución: 0.994772 (s) 
+ 
+Blur Read:  0.353682
+ Blur Read1:  0.352719
+ Blur Process:  0.081795
+ Blur Write:  4.166971
+ Para la imagen 3840 x 2160 - Con 8 Hilos - Tiempo Ejecución: 4.955190 (s) 
+ 
+Blur Read:  0.027041
+ Blur Read1:  0.027257
+ Blur Process:  0.006995
+ Blur Write:  0.367699
+ Para la imagen 1280 x 720 - Con 16 Hilos - Tiempo Ejecución: 0.429006 (s) 
+ 
+Blur Read:  0.065359
+ Blur Read1:  0.069332
+ Blur Process:  0.017945
+ Blur Write:  0.960369
+ Para la imagen 1920 x 1080 - Con 16 Hilos - Tiempo Ejecución: 1.113027 (s) 
+ 
+Blur Read:  0.334177
+ Blur Read1:  0.254064
+ Blur Process:  0.071542
+ Blur Write:  4.103459
+ Para la imagen 3840 x 2160 - Con 16 Hilos - Tiempo Ejecución: 4.763265 (s) 
+ 
+BnW Read: 0.022236 (s) 
+ BnW Write: 0.208730 (s) 
+ BnW Process:  0.003220
+ Para la imagen 1280 x 720 - Con 2 Hilos - Tiempo Ejecución: 0.234196 (s) 
+ 
+BnW Read: 0.051096 (s) 
+ BnW Write: 0.481061 (s) 
+ BnW Process:  0.007834
+ Para la imagen 1920 x 1080 - Con 2 Hilos - Tiempo Ejecución: 0.540007 (s) 
+ 
+BnW Read: 0.229630 (s) 
+ BnW Write: 1.825217 (s) 
+ BnW Process:  0.031376
+ Para la imagen 3840 x 2160 - Con 2 Hilos - Tiempo Ejecución: 2.086237 (s) 
+ 
+BnW Read: 0.024384 (s) 
+ BnW Write: 0.218350 (s) 
+ BnW Process:  0.001872
+ Para la imagen 1280 x 720 - Con 4 Hilos - Tiempo Ejecución: 0.244615 (s) 
+ 
+BnW Read: 0.049850 (s) 
+ BnW Write: 0.474152 (s) 
+ BnW Process:  0.006456
+ Para la imagen 1920 x 1080 - Con 4 Hilos - Tiempo Ejecución: 0.530472 (s) 
+ 
+BnW Read: 0.214374 (s) 
+ BnW Write: 1.789625 (s) 
+ BnW Process:  0.015636
+ Para la imagen 3840 x 2160 - Con 4 Hilos - Tiempo Ejecución: 2.019652 (s) 
+ 
+BnW Read: 0.022132 (s) 
+ BnW Write: 0.212532 (s) 
+ BnW Process:  0.001628
+ Para la imagen 1280 x 720 - Con 8 Hilos - Tiempo Ejecución: 0.236301 (s) 
+ 
+BnW Read: 0.050762 (s) 
+ BnW Write: 0.502356 (s) 
+ BnW Process:  0.003740
+ Para la imagen 1920 x 1080 - Con 8 Hilos - Tiempo Ejecución: 0.556874 (s) 
+ 
+BnW Read: 0.211019 (s) 
+ BnW Write: 1.722244 (s) 
+ BnW Process:  0.014646
+ Para la imagen 3840 x 2160 - Con 8 Hilos - Tiempo Ejecución: 1.947922 (s) 
+ 
+BnW Read: 0.021949 (s) 
+ BnW Write: 0.216053 (s) 
+ BnW Process:  0.001930
+ Para la imagen 1280 x 720 - Con 16 Hilos - Tiempo Ejecución: 0.239943 (s) 
+ 
+BnW Read: 0.055194 (s) 
+ BnW Write: 0.493921 (s) 
+ BnW Process:  0.004315
+ Para la imagen 1920 x 1080 - Con 16 Hilos - Tiempo Ejecución: 0.553443 (s) 
+ 
+BnW Read: 0.212185 (s) 
+ BnW Write: 1.721725 (s) 
+ BnW Process:  0.014903
+ Para la imagen 3840 x 2160 - Con 16 Hilos - Tiempo Ejecución: 1.948825 (s) 
+ 
+Blur Read:  0.023816
+ Blur Read1:  0.024820
+ Blur Process:  0.013713
+ Blur Write:  0.315586
+ Para la imagen 1280 x 720 - Con 2 Hilos - Tiempo Ejecución: 0.377946 (s) 
+ 
+Blur Read:  0.052544
+ Blur Read1:  0.056752
+ Blur Process:  0.032113
+ Blur Write:  0.726996
+ Para la imagen 1920 x 1080 - Con 2 Hilos - Tiempo Ejecución: 0.868425 (s) 
+ 
+Blur Read:  0.227214
+ Blur Read1:  0.230325
+ Blur Process:  0.125993
+ Blur Write:  3.050626
+ Para la imagen 3840 x 2160 - Con 2 Hilos - Tiempo Ejecución: 3.634180 (s) 
+ 
+Blur Read:  0.024683
+ Blur Read1:  0.024773
+ Blur Process:  0.007298
+ Blur Write:  0.356596
+ Para la imagen 1280 x 720 - Con 4 Hilos - Tiempo Ejecución: 0.413361 (s) 
+ 
+Blur Read:  0.058975
+ Blur Read1:  0.059065
+ Blur Process:  0.017830
+ Blur Write:  0.733073
+ Para la imagen 1920 x 1080 - Con 4 Hilos - Tiempo Ejecución: 0.868964 (s) 
+ 
+Blur Read:  0.226571
+ Blur Read1:  0.224445
+ Blur Process:  0.075729
+ Blur Write:  3.090839
+ Para la imagen 3840 x 2160 - Con 4 Hilos - Tiempo Ejecución: 3.617604 (s) 
+ 
+Blur Read:  0.023498
+ Blur Read1:  0.023454
+ Blur Process:  0.011828
+ Blur Write:  0.338093
+ Para la imagen 1280 x 720 - Con 8 Hilos - Tiempo Ejecución: 0.396886 (s) 
+ 
+Blur Read:  0.055099
+ Blur Read1:  0.054039
+ Blur Process:  0.015759
+ Blur Write:  0.712350
+ Para la imagen 1920 x 1080 - Con 8 Hilos - Tiempo Ejecución: 0.837263 (s) 
+ 
+Blur Read:  0.231234
+ Blur Read1:  0.226488
+ Blur Process:  0.072841
+ Blur Write:  3.113312
+ Para la imagen 3840 x 2160 - Con 8 Hilos - Tiempo Ejecución: 3.643896 (s) 
+ 
+Blur Read:  0.023927
+ Blur Read1:  0.022710
+ Blur Process:  0.006891
+ Blur Write:  0.334127
+ Para la imagen 1280 x 720 - Con 16 Hilos - Tiempo Ejecución: 0.387668 (s) 
+ 
+Blur Read:  0.054513
+ Blur Read1:  0.052008
+ Blur Process:  0.017093
+ Blur Write:  0.674449
+ Para la imagen 1920 x 1080 - Con 16 Hilos - Tiempo Ejecución: 0.798082 (s) 
+ 
+Blur Read:  0.224166
+ Blur Read1:  0.226169
+ Blur Process:  0.060182
+ Blur Write:  2.986221
+ Para la imagen 3840 x 2160 - Con 16 Hilos - Tiempo Ejecución: 3.496756 (s) 
+ 
+BnW Read: 0.023889 (s) 
+ BnW Write: 0.221381 (s) 
+ BnW Process:  0.003544
+ Para la imagen 1280 x 720 - Con 2 Hilos - Tiempo Ejecución: 0.248823 (s) 
+ 
+BnW Read: 0.054611 (s) 
+ BnW Write: 0.496942 (s) 
+ BnW Process:  0.007914
+ Para la imagen 1920 x 1080 - Con 2 Hilos - Tiempo Ejecución: 0.559479 (s) 
+ 
+BnW Read: 0.224820 (s) 
+ BnW Write: 1.833509 (s) 
+ BnW Process:  0.031631
+ Para la imagen 3840 x 2160 - Con 2 Hilos - Tiempo Ejecución: 2.089973 (s) 
+ 
+BnW Read: 0.021863 (s) 
+ BnW Write: 0.204465 (s) 
+ BnW Process:  0.001739
+ Para la imagen 1280 x 720 - Con 4 Hilos - Tiempo Ejecución: 0.228078 (s) 
+ 
+BnW Read: 0.052268 (s) 
+ BnW Write: 0.504882 (s) 
+ BnW Process:  0.004160
+ Para la imagen 1920 x 1080 - Con 4 Hilos - Tiempo Ejecución: 0.561324 (s) 
+ 
+BnW Read: 0.217650 (s) 
+ BnW Write: 1.752860 (s) 
+ BnW Process:  0.015710
+ Para la imagen 3840 x 2160 - Con 4 Hilos - Tiempo Ejecución: 1.986233 (s) 
+ 
+BnW Read: 0.023451 (s) 
+ BnW Write: 0.211807 (s) 
+ BnW Process:  0.001666
+ Para la imagen 1280 x 720 - Con 8 Hilos - Tiempo Ejecución: 0.236933 (s) 
+ 
+BnW Read: 0.053209 (s) 
+ BnW Write: 0.477002 (s) 
+ BnW Process:  0.003719
+ Para la imagen 1920 x 1080 - Con 8 Hilos - Tiempo Ejecución: 0.533944 (s) 
+ 
+BnW Read: 0.235852 (s) 
+ BnW Write: 1.889492 (s) 
+ BnW Process:  0.017310
+ Para la imagen 3840 x 2160 - Con 8 Hilos - Tiempo Ejecución: 2.142666 (s) 
+ 
+BnW Read: 0.025423 (s) 
+ BnW Write: 0.229357 (s) 
+ BnW Process:  0.002135
+ Para la imagen 1280 x 720 - Con 16 Hilos - Tiempo Ejecución: 0.256929 (s) 
+ 
+BnW Read: 0.050630 (s) 
+ BnW Write: 0.484078 (s) 
+ BnW Process:  0.004077
+ Para la imagen 1920 x 1080 - Con 16 Hilos - Tiempo Ejecución: 0.538802 (s) 
+ 
+BnW Read: 0.217823 (s) 
+ BnW Write: 1.752076 (s) 
+ BnW Process:  0.014948
+ Para la imagen 3840 x 2160 - Con 16 Hilos - Tiempo Ejecución: 1.984863 (s) 
+ 
+Blur Read:  0.022411
+ Blur Read1:  0.027875
+ Blur Process:  0.014095
+ Blur Write:  0.325515
+ Para la imagen 1280 x 720 - Con 2 Hilos - Tiempo Ejecución: 0.389910 (s) 
+ 
+Blur Read:  0.057711
+ Blur Read1:  0.057834
+ Blur Process:  0.032159
+ Blur Write:  0.706776
+ Para la imagen 1920 x 1080 - Con 2 Hilos - Tiempo Ejecución: 0.854497 (s) 
+ 
+Blur Read:  0.244021
+ Blur Read1:  0.239728
+ Blur Process:  0.130486
+ Blur Write:  3.208394
+ Para la imagen 3840 x 2160 - Con 2 Hilos - Tiempo Ejecución: 3.822650 (s) 
+ 
+Blur Read:  0.025268
+ Blur Read1:  0.024263
+ Blur Process:  0.007162
+ Blur Write:  0.337606
+ Para la imagen 1280 x 720 - Con 4 Hilos - Tiempo Ejecución: 0.394311 (s) 
+ 
+Blur Read:  0.054940
+ Blur Read1:  0.055124
+ Blur Process:  0.016938
+ Blur Write:  0.701318
+ Para la imagen 1920 x 1080 - Con 4 Hilos - Tiempo Ejecución: 0.828342 (s) 
+ 
+Blur Read:  0.229627
+ Blur Read1:  0.231710
+ Blur Process:  0.068115
+ Blur Write:  3.206369
+ Para la imagen 3840 x 2160 - Con 4 Hilos - Tiempo Ejecución: 3.735839 (s) 
+ 
+Blur Read:  0.023353
+ Blur Read1:  0.023396
+ Blur Process:  0.007182
+ Blur Write:  0.333399
+ Para la imagen 1280 x 720 - Con 8 Hilos - Tiempo Ejecución: 0.387345 (s) 
+ 
+Blur Read:  0.055455
+ Blur Read1:  0.054856
+ Blur Process:  0.015903
+ Blur Write:  0.700809
+ Para la imagen 1920 x 1080 - Con 8 Hilos - Tiempo Ejecución: 0.827040 (s) 
+ 
+Blur Read:  0.243651
+ Blur Read1:  0.237695
+ Blur Process:  0.078184
+ Blur Write:  3.163722
+ Para la imagen 3840 x 2160 - Con 8 Hilos - Tiempo Ejecución: 3.723270 (s) 
+ 
+Blur Read:  0.023015
+ Blur Read1:  0.023416
+ Blur Process:  0.007059
+ Blur Write:  0.328269
+ Para la imagen 1280 x 720 - Con 16 Hilos - Tiempo Ejecución: 0.381773 (s) 
+ 
+Blur Read:  0.056273
+ Blur Read1:  0.054434
+ Blur Process:  0.018097
+ Blur Write:  0.690420
+ Para la imagen 1920 x 1080 - Con 16 Hilos - Tiempo Ejecución: 0.819239 (s) 
+ 
+Blur Read:  0.230015
+ Blur Read1:  0.224292
+ Blur Process:  0.075942
+ Blur Write:  3.238057
+ Para la imagen 3840 x 2160 - Con 16 Hilos - Tiempo Ejecución: 3.768328 (s) 
+ 
+BnW Read: 0.022299 (s) 
+ BnW Write: 0.207247 (s) 
+ BnW Process:  0.003328
+ Para la imagen 1280 x 720 - Con 2 Hilos - Tiempo Ejecución: 0.232883 (s) 
+ 
+BnW Read: 0.051656 (s) 
+ BnW Write: 0.499590 (s) 
+ BnW Process:  0.007907
+ Para la imagen 1920 x 1080 - Con 2 Hilos - Tiempo Ejecución: 0.559165 (s) 
+ 
+BnW Read: 0.229962 (s) 
+ BnW Write: 1.823695 (s) 
+ BnW Process:  0.032392
+ Para la imagen 3840 x 2160 - Con 2 Hilos - Tiempo Ejecución: 2.086065 (s) 
+ 
+BnW Read: 0.023365 (s) 
+ BnW Write: 0.217307 (s) 
+ BnW Process:  0.001925
+ Para la imagen 1280 x 720 - Con 4 Hilos - Tiempo Ejecución: 0.242608 (s) 
+ 
+BnW Read: 0.055457 (s) 
+ BnW Write: 0.494605 (s) 
+ BnW Process:  0.004130
+ Para la imagen 1920 x 1080 - Con 4 Hilos - Tiempo Ejecución: 0.554209 (s) 
+ 
+BnW Read: 0.230639 (s) 
+ BnW Write: 1.821967 (s) 
+ BnW Process:  0.016044
+ Para la imagen 3840 x 2160 - Con 4 Hilos - Tiempo Ejecución: 2.068667 (s) 
+ 
+BnW Read: 0.021934 (s) 
+ BnW Write: 0.215022 (s) 
+ BnW Process:  0.001582
+ Para la imagen 1280 x 720 - Con 8 Hilos - Tiempo Ejecución: 0.238547 (s) 
+ 
+BnW Read: 0.053503 (s) 
+ BnW Write: 0.509884 (s) 
+ BnW Process:  0.003875
+ Para la imagen 1920 x 1080 - Con 8 Hilos - Tiempo Ejecución: 0.567274 (s) 
+ 
+BnW Read: 0.241730 (s) 
+ BnW Write: 1.906042 (s) 
+ BnW Process:  0.015995
+ Para la imagen 3840 x 2160 - Con 8 Hilos - Tiempo Ejecución: 2.163782 (s) 
+ 
+BnW Read: 0.023727 (s) 
+ BnW Write: 0.225707 (s) 
+ BnW Process:  0.002046
+ Para la imagen 1280 x 720 - Con 16 Hilos - Tiempo Ejecución: 0.251493 (s) 
+ 
+BnW Read: 0.052605 (s) 
+ BnW Write: 0.501930 (s) 
+ BnW Process:  0.004166
+ Para la imagen 1920 x 1080 - Con 16 Hilos - Tiempo Ejecución: 0.558720 (s) 
+ 
+BnW Read: 0.224151 (s) 
+ BnW Write: 1.904664 (s) 
+ BnW Process:  0.015188
+ Para la imagen 3840 x 2160 - Con 16 Hilos - Tiempo Ejecución: 2.144018 (s) 
+ 
+Blur Read:  0.025386
+ Blur Read1:  0.026338
+ Blur Process:  0.013970
+ Blur Write:  0.347506
+ Para la imagen 1280 x 720 - Con 2 Hilos - Tiempo Ejecución: 0.413220 (s) 
+ 
+Blur Read:  0.055613
+ Blur Read1:  0.054871
+ Blur Process:  0.032221
+ Blur Write:  0.706600
+ Para la imagen 1920 x 1080 - Con 2 Hilos - Tiempo Ejecución: 0.849326 (s) 
+ 
+Blur Read:  0.237258
+ Blur Read1:  0.241944
+ Blur Process:  0.141986
+ Blur Write:  3.146626
+ Para la imagen 3840 x 2160 - Con 2 Hilos - Tiempo Ejecución: 3.767832 (s) 
+ 
+Blur Read:  0.033820
+ Blur Read1:  0.022741
+ Blur Process:  0.006878
+ Blur Write:  0.339224
+ Para la imagen 1280 x 720 - Con 4 Hilos - Tiempo Ejecución: 0.402676 (s) 
+ 
+Blur Read:  0.055309
+ Blur Read1:  0.054585
+ Blur Process:  0.016938
+ Blur Write:  0.695915
+ Para la imagen 1920 x 1080 - Con 4 Hilos - Tiempo Ejecución: 0.822763 (s) 
+ 
+Blur Read:  0.241239
+ Blur Read1:  0.239836
+ Blur Process:  0.081529
+ Blur Write:  3.128533
+ Para la imagen 3840 x 2160 - Con 4 Hilos - Tiempo Ejecución: 3.691153 (s) 
+ 
+Blur Read:  0.024704
+ Blur Read1:  0.024556
+ Blur Process:  0.006539
+ Blur Write:  0.336237
+ Para la imagen 1280 x 720 - Con 8 Hilos - Tiempo Ejecución: 0.392048 (s) 
+ 
+Blur Read:  0.055885
+ Blur Read1:  0.055268
+ Blur Process:  0.015676
+ Blur Write:  0.722298
+ Para la imagen 1920 x 1080 - Con 8 Hilos - Tiempo Ejecución: 0.849145 (s) 
+ 
+Blur Read:  0.229766
+ Blur Read1:  0.224485
+ Blur Process:  0.072591
+ Blur Write:  3.143571
+ Para la imagen 3840 x 2160 - Con 8 Hilos - Tiempo Ejecución: 3.670434 (s) 
+ 
+Blur Read:  0.023372
+ Blur Read1:  0.023870
+ Blur Process:  0.007058
+ Blur Write:  0.332861
+ Para la imagen 1280 x 720 - Con 16 Hilos - Tiempo Ejecución: 0.387175 (s) 
+ 
+Blur Read:  0.055310
+ Blur Read1:  0.056884
+ Blur Process:  0.016236
+ Blur Write:  0.737478
+ Para la imagen 1920 x 1080 - Con 16 Hilos - Tiempo Ejecución: 0.865926 (s) 
+ 
+Blur Read:  0.247137
+ Blur Read1:  0.240943
+ Blur Process:  0.073714
+ Blur Write:  3.245284
+ Para la imagen 3840 x 2160 - Con 16 Hilos - Tiempo Ejecución: 3.807095 (s) 
+ 

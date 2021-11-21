@@ -1,0 +1,330 @@
+BnW Read: 0.026264
+Para la imagen de resolución: 1280 x 720 - BnW Process: 0.007344
+BnW Write: 0.241288
+Tiempo de ejecución de efecto blanco y negro: 0.274911
+ 
+BnW Read: 0.061883
+Para la imagen de resolución: 1920 x 1080 - BnW Process: 0.018299
+BnW Write: 0.562522
+Tiempo de ejecución de efecto blanco y negro: 0.642720
+ 
+BnW Read: 0.254337
+Para la imagen de resolución: 3840 x 2160 - BnW Process: 0.070379
+BnW Write: 1.969647
+Tiempo de ejecución de efecto blanco y negro: 2.294382
+ 
+Blur Read:  0.026293
+Blur Read 1:  0.027720
+Para la imagen de resolución: 1280 x 720 - Blur Process:  0.030429
+Blur Write:  0.355136
+Tiempo de ejecución de efecto blur con kernel 3x3:  0.439598
+ 
+Blur Read:  0.062879
+Blur Read 1:  0.062974
+Para la imagen de resolución: 1920 x 1080 - Blur Process:  0.070598
+Blur Write:  0.750990
+Tiempo de ejecución de efecto blur con kernel 3x3:  0.947459
+ 
+Blur Read:  0.264199
+Blur Read 1:  0.263729
+Para la imagen de resolución: 3840 x 2160 - Blur Process:  0.282260
+Blur Write:  3.448715
+Tiempo de ejecución de efecto blur con kernel 3x3:  4.258922
+ 
+BnW Read: 0.108007
+Para la imagen de resolución: 1280 x 720 - BnW Process: 0.030342
+BnW Write: 0.525495
+Tiempo de ejecución de efecto blanco y negro: 0.663888
+ 
+BnW Read: 0.055760
+Para la imagen de resolución: 1920 x 1080 - BnW Process: 0.017734
+BnW Write: 0.562015
+Tiempo de ejecución de efecto blanco y negro: 0.635528
+ 
+BnW Read: 0.277462
+Para la imagen de resolución: 3840 x 2160 - BnW Process: 0.075001
+BnW Write: 2.120855
+Tiempo de ejecución de efecto blanco y negro: 2.473338
+ 
+Blur Read:  0.024614
+Blur Read 1:  0.029339
+Para la imagen de resolución: 1280 x 720 - Blur Process:  0.040782
+Blur Write:  0.375564
+Tiempo de ejecución de efecto blur con kernel 3x3:  0.470315
+ 
+Blur Read:  0.056141
+Blur Read 1:  0.059202
+Para la imagen de resolución: 1920 x 1080 - Blur Process:  0.068552
+Blur Write:  0.740282
+Tiempo de ejecución de efecto blur con kernel 3x3:  0.924194
+ 
+Blur Read:  0.262984
+Blur Read 1:  0.273897
+Para la imagen de resolución: 3840 x 2160 - Blur Process:  0.292748
+Blur Write:  3.537523
+Tiempo de ejecución de efecto blur con kernel 3x3:  4.367166
+ 
+BnW Read: 0.024018
+Para la imagen de resolución: 1280 x 720 - BnW Process: 0.007184
+BnW Write: 0.228310
+Tiempo de ejecución de efecto blanco y negro: 0.259518
+ 
+BnW Read: 0.058729
+Para la imagen de resolución: 1920 x 1080 - BnW Process: 0.016968
+BnW Write: 0.510429
+Tiempo de ejecución de efecto blanco y negro: 0.586140
+ 
+BnW Read: 0.248504
+Para la imagen de resolución: 3840 x 2160 - BnW Process: 0.071193
+BnW Write: 1.965877
+Tiempo de ejecución de efecto blanco y negro: 2.285594
+ 
+Blur Read:  0.028205
+Blur Read 1:  0.027088
+Para la imagen de resolución: 1280 x 720 - Blur Process:  0.030662
+Blur Write:  0.334864
+Tiempo de ejecución de efecto blur con kernel 3x3:  0.420836
+ 
+Blur Read:  0.054943
+Blur Read 1:  0.059966
+Para la imagen de resolución: 1920 x 1080 - Blur Process:  0.066858
+Blur Write:  0.724658
+Tiempo de ejecución de efecto blur con kernel 3x3:  0.906438
+ 
+Blur Read:  0.257288
+Blur Read 1:  0.256840
+Para la imagen de resolución: 3840 x 2160 - Blur Process:  0.273192
+Blur Write:  3.442889
+Tiempo de ejecución de efecto blur con kernel 3x3:  4.230226
+ 
+BnW Read: 0.024022
+Para la imagen de resolución: 1280 x 720 - BnW Process: 0.007262
+BnW Write: 0.232734
+Tiempo de ejecución de efecto blanco y negro: 0.264033
+ 
+BnW Read: 0.060281
+Para la imagen de resolución: 1920 x 1080 - BnW Process: 0.017648
+BnW Write: 0.557346
+Tiempo de ejecución de efecto blanco y negro: 0.635291
+ 
+BnW Read: 0.285306
+Para la imagen de resolución: 3840 x 2160 - BnW Process: 0.075360
+BnW Write: 2.001793
+Tiempo de ejecución de efecto blanco y negro: 2.362476
+ 
+Blur Read:  0.026458
+Blur Read 1:  0.029414
+Para la imagen de resolución: 1280 x 720 - Blur Process:  0.032871
+Blur Write:  0.372359
+Tiempo de ejecución de efecto blur con kernel 3x3:  0.461118
+ 
+Blur Read:  0.067394
+Blur Read 1:  0.068189
+Para la imagen de resolución: 1920 x 1080 - Blur Process:  0.078621
+Blur Write:  0.837240
+Tiempo de ejecución de efecto blur con kernel 3x3:  1.051460
+ 
+Blur Read:  0.249885
+Blur Read 1:  0.258774
+Para la imagen de resolución: 3840 x 2160 - Blur Process:  0.274883
+Blur Write:  3.579995
+Tiempo de ejecución de efecto blur con kernel 3x3:  4.363556
+ 
+BnW Read: 0.025877
+Para la imagen de resolución: 1280 x 720 - BnW Process: 0.007894
+BnW Write: 0.240565
+Tiempo de ejecución de efecto blanco y negro: 0.274349
+ 
+BnW Read: 0.057491
+Para la imagen de resolución: 1920 x 1080 - BnW Process: 0.017208
+BnW Write: 0.525868
+Tiempo de ejecución de efecto blanco y negro: 0.600581
+ 
+BnW Read: 0.256201
+Para la imagen de resolución: 3840 x 2160 - BnW Process: 0.072206
+BnW Write: 2.024157
+Tiempo de ejecución de efecto blanco y negro: 2.352579
+ 
+Blur Read:  0.026694
+Blur Read 1:  0.027594
+Para la imagen de resolución: 1280 x 720 - Blur Process:  0.030527
+Blur Write:  0.347290
+Tiempo de ejecución de efecto blur con kernel 3x3:  0.432121
+ 
+Blur Read:  0.057658
+Blur Read 1:  0.060123
+Para la imagen de resolución: 1920 x 1080 - Blur Process:  0.073893
+Blur Write:  0.731516
+Tiempo de ejecución de efecto blur con kernel 3x3:  0.923203
+ 
+Blur Read:  0.252999
+Blur Read 1:  0.252656
+Para la imagen de resolución: 3840 x 2160 - Blur Process:  0.268674
+Blur Write:  3.213731
+Tiempo de ejecución de efecto blur con kernel 3x3:  3.988081
+ 
+BnW Read: 0.023985
+Para la imagen de resolución: 1280 x 720 - BnW Process: 0.007667
+BnW Write: 0.240825
+Tiempo de ejecución de efecto blanco y negro: 0.272491
+ 
+BnW Read: 0.058479
+Para la imagen de resolución: 1920 x 1080 - BnW Process: 0.018296
+BnW Write: 0.568315
+Tiempo de ejecución de efecto blanco y negro: 0.645110
+ 
+BnW Read: 0.250055
+Para la imagen de resolución: 3840 x 2160 - BnW Process: 0.070892
+BnW Write: 1.997017
+Tiempo de ejecución de efecto blanco y negro: 2.317978
+ 
+Blur Read:  0.025171
+Blur Read 1:  0.026845
+Para la imagen de resolución: 1280 x 720 - Blur Process:  0.030115
+Blur Write:  0.348503
+Tiempo de ejecución de efecto blur con kernel 3x3:  0.430644
+ 
+Blur Read:  0.059441
+Blur Read 1:  0.063944
+Para la imagen de resolución: 1920 x 1080 - Blur Process:  0.071880
+Blur Write:  0.786508
+Tiempo de ejecución de efecto blur con kernel 3x3:  0.981792
+ 
+Blur Read:  0.247895
+Blur Read 1:  0.256522
+Para la imagen de resolución: 3840 x 2160 - Blur Process:  0.273511
+Blur Write:  3.282137
+Tiempo de ejecución de efecto blur con kernel 3x3:  4.060084
+ 
+BnW Read: 0.024238
+Para la imagen de resolución: 1280 x 720 - BnW Process: 0.007412
+BnW Write: 0.238468
+Tiempo de ejecución de efecto blanco y negro: 0.270131
+ 
+BnW Read: 0.056471
+Para la imagen de resolución: 1920 x 1080 - BnW Process: 0.016574
+BnW Write: 0.515121
+Tiempo de ejecución de efecto blanco y negro: 0.588178
+ 
+BnW Read: 0.259172
+Para la imagen de resolución: 3840 x 2160 - BnW Process: 0.073786
+BnW Write: 2.088856
+Tiempo de ejecución de efecto blanco y negro: 2.421831
+ 
+Blur Read:  0.023302
+Blur Read 1:  0.025338
+Para la imagen de resolución: 1280 x 720 - Blur Process:  0.028570
+Blur Write:  0.336744
+Tiempo de ejecución de efecto blur con kernel 3x3:  0.413967
+ 
+Blur Read:  0.056786
+Blur Read 1:  0.062025
+Para la imagen de resolución: 1920 x 1080 - Blur Process:  0.070161
+Blur Write:  0.757730
+Tiempo de ejecución de efecto blur con kernel 3x3:  0.946712
+ 
+Blur Read:  0.238325
+Blur Read 1:  0.244547
+Para la imagen de resolución: 3840 x 2160 - Blur Process:  0.259299
+Blur Write:  3.114457
+Tiempo de ejecución de efecto blur con kernel 3x3:  3.856647
+ 
+BnW Read: 0.024124
+Para la imagen de resolución: 1280 x 720 - BnW Process: 0.007647
+BnW Write: 0.233603
+Tiempo de ejecución de efecto blanco y negro: 0.265383
+ 
+BnW Read: 0.060209
+Para la imagen de resolución: 1920 x 1080 - BnW Process: 0.017624
+BnW Write: 0.523417
+Tiempo de ejecución de efecto blanco y negro: 0.601267
+ 
+BnW Read: 0.251484
+Para la imagen de resolución: 3840 x 2160 - BnW Process: 0.068882
+BnW Write: 1.944693
+Tiempo de ejecución de efecto blanco y negro: 2.265071
+ 
+Blur Read:  0.023302
+Blur Read 1:  0.025414
+Para la imagen de resolución: 1280 x 720 - Blur Process:  0.029177
+Blur Write:  0.339157
+Tiempo de ejecución de efecto blur con kernel 3x3:  0.417062
+ 
+Blur Read:  0.055401
+Blur Read 1:  0.058801
+Para la imagen de resolución: 1920 x 1080 - Blur Process:  0.065906
+Blur Write:  0.710336
+Tiempo de ejecución de efecto blur con kernel 3x3:  0.890459
+ 
+Blur Read:  0.238359
+Blur Read 1:  0.242832
+Para la imagen de resolución: 3840 x 2160 - Blur Process:  0.256503
+Blur Write:  3.075023
+Tiempo de ejecución de efecto blur con kernel 3x3:  3.812737
+ 
+BnW Read: 0.024923
+Para la imagen de resolución: 1280 x 720 - BnW Process: 0.007801
+BnW Write: 0.258364
+Tiempo de ejecución de efecto blanco y negro: 0.291100
+ 
+BnW Read: 0.053366
+Para la imagen de resolución: 1920 x 1080 - BnW Process: 0.016004
+BnW Write: 0.499896
+Tiempo de ejecución de efecto blanco y negro: 0.569280
+ 
+BnW Read: 0.254846
+Para la imagen de resolución: 3840 x 2160 - BnW Process: 0.073454
+BnW Write: 2.059065
+Tiempo de ejecución de efecto blanco y negro: 2.387381
+ 
+Blur Read:  0.024155
+Blur Read 1:  0.025379
+Para la imagen de resolución: 1280 x 720 - Blur Process:  0.028411
+Blur Write:  0.330251
+Tiempo de ejecución de efecto blur con kernel 3x3:  0.408209
+ 
+Blur Read:  0.056280
+Blur Read 1:  0.061112
+Para la imagen de resolución: 1920 x 1080 - Blur Process:  0.069595
+Blur Write:  0.751450
+Tiempo de ejecución de efecto blur con kernel 3x3:  0.938453
+ 
+Blur Read:  0.232603
+Blur Read 1:  0.237527
+Para la imagen de resolución: 3840 x 2160 - Blur Process:  0.252034
+Blur Write:  3.049591
+Tiempo de ejecución de efecto blur con kernel 3x3:  3.771775
+ 
+BnW Read: 0.025441
+Para la imagen de resolución: 1280 x 720 - BnW Process: 0.007567
+BnW Write: 0.233422
+Tiempo de ejecución de efecto blanco y negro: 0.266442
+ 
+BnW Read: 0.059011
+Para la imagen de resolución: 1920 x 1080 - BnW Process: 0.017024
+BnW Write: 0.526870
+Tiempo de ejecución de efecto blanco y negro: 0.602923
+ 
+BnW Read: 0.246828
+Para la imagen de resolución: 3840 x 2160 - BnW Process: 0.068770
+BnW Write: 1.976224
+Tiempo de ejecución de efecto blanco y negro: 2.291842
+ 
+Blur Read:  0.026859
+Blur Read 1:  0.028077
+Para la imagen de resolución: 1280 x 720 - Blur Process:  0.031052
+Blur Write:  0.355032
+Tiempo de ejecución de efecto blur con kernel 3x3:  0.441031
+ 
+Blur Read:  0.063116
+Blur Read 1:  0.064150
+Para la imagen de resolución: 1920 x 1080 - Blur Process:  0.071501
+Blur Write:  0.764798
+Tiempo de ejecución de efecto blur con kernel 3x3:  0.963583
+ 
+Blur Read:  0.268632
+Blur Read 1:  0.266891
+Para la imagen de resolución: 3840 x 2160 - Blur Process:  0.282994
+Blur Write:  3.421438
+Tiempo de ejecución de efecto blur con kernel 3x3:  4.239972
+ 

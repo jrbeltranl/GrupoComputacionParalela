@@ -31,9 +31,11 @@ png_infop info_ptr;
 int number_of_passes;
 png_bytep * row_pointers;
 png_bytep * my_row_pointers;
+struct timeval tval_before, tval_after, tval_result, tval_before1, tval_after1, tval_result1;
 
 void read_png_file(char* file_name)
 {
+        gettimeofday(&tval_before, NULL);
         char header[8];    // 8 is the maximum size that can be checked
 
         // Lee el archivo y verifica si es un PNG
@@ -88,10 +90,14 @@ void read_png_file(char* file_name)
         png_read_image(png_ptr, row_pointers);
         
         fclose(fp);
+        gettimeofday(&tval_after, NULL);
+        timersub(&tval_after, &tval_before, &tval_result);
+        printf("Blur Read:  %ld.%06ld\n", (long int)tval_result.tv_sec, (long int)tval_result.tv_usec);
 }
 
 void read_png_file1(char* file_name)
 {
+        gettimeofday(&tval_before, NULL);
         char header[8];    // 8 is the maximum size that can be checked
 
         // Lee el archivo y verifica si es un PNG
@@ -145,10 +151,14 @@ void read_png_file1(char* file_name)
         png_read_image(png_ptr, my_row_pointers);
 
         fclose(fp);
+        gettimeofday(&tval_after, NULL);
+        timersub(&tval_after, &tval_before, &tval_result);
+        printf("Blur Read 1:  %ld.%06ld\n", (long int)tval_result.tv_sec, (long int)tval_result.tv_usec);
 }
 
 void write_png_file(char* file_name)
 {
+        gettimeofday(&tval_before, NULL);
         // Crea el archivo
         FILE *fp = fopen(file_name, "wb");
         if (!fp)
@@ -201,11 +211,15 @@ void write_png_file(char* file_name)
         free(row_pointers);
 
         fclose(fp);
+        gettimeofday(&tval_after, NULL);
+        timersub(&tval_after, &tval_before, &tval_result);
+        printf("Blur Write:  %ld.%06ld\n", (long int)tval_result.tv_sec, (long int)tval_result.tv_usec);
 }
 
 
 void process_file()
 {
+        gettimeofday(&tval_before, NULL);
         // Se realizan los cambios deseados en la imagen
         
         int channels = 3;
@@ -489,8 +503,10 @@ void process_file()
                 }
         }
         printf("Para la imagen de resolución: %d x %d - ", width, height);
-        
-}
+        gettimeofday(&tval_after, NULL);
+        timersub(&tval_after, &tval_before, &tval_result);
+        printf("Blur Process:  %ld.%06ld\n", (long int)tval_result.tv_sec, (long int)tval_result.tv_usec);
+}       
 
 
 int main(int argc, char **argv)
@@ -499,17 +515,17 @@ int main(int argc, char **argv)
         if (argc != 3)
                 abort_("Uso: Nombre_del_Programa <file_in> <file_out>");
 
-        struct timeval tval_before, tval_after, tval_result;
-        gettimeofday(&tval_before, NULL);
+        
+        gettimeofday(&tval_before1, NULL);
 
         read_png_file(argv[1]);
         read_png_file1(argv[1]);
         process_file();
         write_png_file(argv[2]);
 
-        gettimeofday(&tval_after, NULL);
-        timersub(&tval_after, &tval_before, &tval_result);
-        printf("Tiempo de ejecución de efecto blur con kernel 3x3:  %ld.%06ld\n \n", (long int)tval_result.tv_sec, (long int)tval_result.tv_usec);
+        gettimeofday(&tval_after1, NULL);
+        timersub(&tval_after1, &tval_before1, &tval_result1);
+        printf("Tiempo de ejecución de efecto blur con kernel 3x3:  %ld.%06ld\n \n", (long int)tval_result1.tv_sec, (long int)tval_result1.tv_usec);
 
         return 0;
 }
