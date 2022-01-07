@@ -12,7 +12,7 @@
 #include <sched.h>
 
 #define PNG_DEBUG 3
-#define THREADS 16
+
 
 
 void abort_(const char * s, ...)
@@ -192,7 +192,9 @@ void process_file(int ID, int threads_num)
                         rgb_average = 0;
 
                         row             = row_pointers[y];
+                        printf("Row = %hhn", row);
                         ptr             = &(row[x*channels]);
+                        
                         
                         // printf("Pixel  %d - %d, Rgb values: %d - %d - %d \n", x, y, ptr[0], ptr[1], ptr[2]); 
                         rgb_total      += ptr[0] + ptr[1] + ptr[2];
@@ -229,12 +231,12 @@ int main(int argc, char **argv)
         read_png_file(argv[1]);
 
         gettimeofday(&tval_before2, NULL);
-        #pragma omp parallel num_threads(threads_num)
-        {
-                
-                int ID = omp_get_thread_num();
-                process_file(ID, threads_num);
-        }
+                #pragma omp parallel num_threads(threads_num)
+                {
+                        
+                        int ID = omp_get_thread_num();
+                        process_file(ID, threads_num);
+                }
         gettimeofday(&tval_after2, NULL);
         timersub(&tval_after2, &tval_before2, &tval_result2);
         write_png_file(argv[2]);

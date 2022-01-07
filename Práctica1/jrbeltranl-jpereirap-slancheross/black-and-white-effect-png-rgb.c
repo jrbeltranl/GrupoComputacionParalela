@@ -32,6 +32,7 @@ int number_of_passes;
 png_bytep * row_pointers;
 png_bytep * my_row_pointers;
 struct timeval tval_before, tval_after, tval_result, tval_before1, tval_after1, tval_result1;
+int * image_as_array;
 
 void read_png_file(char* file_name)
 {
@@ -147,10 +148,7 @@ void write_png_file(char* file_name)
 
         png_write_end(png_ptr, NULL);
 
-        // Libera el espacio reservado previamente
-        for (y=0; y<height; y++)
-                free(row_pointers[y]);
-        free(row_pointers);
+        
 
         fclose(fp);
 
@@ -206,23 +204,100 @@ void process_file()
         printf("BnW Process: %ld.%06ld\n", (long int)tval_result.tv_sec, (long int)tval_result.tv_usec);
 }
 
+int * image_to_array(int width, int height){
+
+        static int image_as_array[24883200];
+        int x = 0;
+        int y = 0;
+        int k = 0;
+        int counter = 0;
+        png_byte *row;
+        png_byte *ptr;
+
+
+        for (y=0; y<height-1; y++) {
+
+                for (x=0; x<width; x++) {
+                
+                        row             = row_pointers[y];
+                        ptr             = &(row[x*3]);
+                        
+                        for(k=0; k<3; k++){
+                                image_as_array[counter] = ptr[k];
+                                counter++;
+                        }
+                }
+
+        }      
+        return image_as_array;
+}
+
+void from_array_to_bnw_png()
+{ 
+        printf("final");
+        //Se toman los valores de promedio RGB y se guardan en la estructura pngbyte nuevamente
+        int x = 0;
+        int y = 0;
+        int channels = 3;
+        png_byte *row, *ptr;
+        int counter = 0;
+
+        for (y=0; y<height-1; y++) {
+                //printf("%d", y);
+                for (x=0; x<width; x++) {
+
+                        row             = row_pointers[y];
+                        ptr             = &(row[x*channels]);
+                        
+                        ptr[0]  = image_as_array[counter];
+                        counter++;
+                        ptr[1]  = image_as_array[counter];
+                        counter++;
+                        ptr[2]  = image_as_array[counter];
+                        counter++;
+                }
+        }
+        printf("Final2");
+}
 
 int main(int argc, char **argv)
 {       
+        
         // Verifica los parámetros para ejecutar el programa
-        if (argc != 3)
+        if (argc != 4)
                 abort_("Uso: ./Nombre_del_Programa <file_in> <file_out>");
 
         
         gettimeofday(&tval_before1, NULL);
 
+        printf("1 \n");
         read_png_file(argv[1]);
+        image_as_array = image_to_array(width, height);
+        // for (int i =0; i<8294400; i++){
+        //         printf("%d, ", image_as_array[i]);
+        // }
+        
+        printf("2 \n");
         process_file();
         write_png_file(argv[2]);
 
+        printf("3 \n");
+        from_array_to_bnw_png();
+        
+        printf("4 \n");
+        write_png_file(argv[3]);
+
+        
         gettimeofday(&tval_after1, NULL);
         timersub(&tval_after1, &tval_before1, &tval_result1);
         printf("Tiempo de ejecución de efecto blanco y negro: %ld.%06ld\n \n", (long int)tval_result1.tv_sec, (long int)tval_result1.tv_usec);
+
+
+        // Libera el espacio reservado previamente
+        for (y=0; y<height; y++)
+                free(row_pointers[y]);
+        free(row_pointers);
+
 
         return 0;
 }

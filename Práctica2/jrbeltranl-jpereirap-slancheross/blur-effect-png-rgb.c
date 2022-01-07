@@ -221,7 +221,6 @@ void write_png_file(char* file_name)
         printf("Blur Write:  %ld.%06ld\n ", (long int)tval_result.tv_sec, (long int)tval_result.tv_usec);
 }
 
-
 void process_file(int ID, int threads_num)
 {
         // Se realizan los cambios deseados en la imagen

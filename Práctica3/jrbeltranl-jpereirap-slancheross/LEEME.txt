@@ -1,0 +1,25 @@
+Los programas fueron desarrollados y probados en Google Colab. El notebook correspondiente puede encontrarse en el siguiente enlace:
+
+https://colab.research.google.com/drive/1g-brM3ZBG922Ief-u99H-gMISzxm_ss8?usp=sharing
+
+Es necesario realizar ciertas acciones para preparar el entorno para la ejecución del programa. En primer lugar, es necesario ejecutar hasta la cuarta celda del Colab, que es aquella con las líneas de código
+"!sudo apt-get install libpng-dev"
+
+Esto creará los siguientes directorios en el Colab:
+	A. "/usr/local/cuda-11.0/samples/Práctica3/"
+	B. "/usr/local/cuda-11.0/samples/Práctica3/Input"
+	C. "/usr/local/cuda-11.0/samples/Práctica3/Output"
+
+Una vez estos se encuentren creados, en el primer directorio (A), se debe subir el código fuente del programa y el archivo Make, que corresponden a los archivos 
+	"black-and-white-effect-png-rgb.cu"
+	"Makefile"
+que se encuentran en esta carpeta.
+
+Posteriormente, es necesario subir a la carpeta Input (directorio B) las imágenes de entrada disponibles también en esta carpeta:
+	"Gato720.png"
+	"Gato1080.png"
+	"Gato4kpng"
+
+Luego podemos ejecutar las otras celdas del Colab con normalidad. Nótese que la última celda es para borrar todos los archivos resultantes de la ejecución del programa.
+
+Adicionalmente, se encuentra en esta carpeta el archivo "jrbeltranl-jpereirap-slancheross-Práctica3.ipynb" que contiene el notebook como tal. Sin embargo se sugiere realizar la ejecución directamente en Colab, ya que el notebook no ha sido probado en un entorno local.

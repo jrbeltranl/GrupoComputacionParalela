@@ -38,6 +38,3 @@ gcc blur-effect-png-rgb.c -o ompBlur -fopenmp -l png
 ./ompBlur Input/Gato720.png Output/OMPBlurGato720 16 >> tiemposEjecucion.txt
 ./ompBlur Input/Gato1080.png Output/OMPBlurGato1080 16 >> tiemposEjecucion.txt
 ./ompBlur Input/Gato4k.png Output/OMPBlurGato4k 16 >> tiemposEjecucion.txt
-
-
-

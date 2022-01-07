@@ -1,13 +1,13 @@
 Los programas fueron desarrollados y probados en Ubuntu 20.04.3 LTS. Para su compilación y ejecución es necesaria la librería "libpng" que puede ser instalada con:
 "sudo apt-get install libpng-dev"
 
-Para compilar el código es necesario añadir un "-l png" al final del comando, como por ejemplo:
-"gcc black-and-white-effect-png-rgb.c -o black-and-white-effect-png-rgb -l png"
+Para compilar el código es necesario añadir un "-fopenmp" y un "-l png" al  comando, como por ejemplo:
+"gcc black-and-white-effect-png-rgb.c -o ompBnW -fopenmp -l png"
 
-Para correr el código, la notación es: "./Nombre_del_Programa <file_in> <file_out>", por ejemplo:
-"black-and-white-effect-png-rgb Gato4k.png Gato4k-black-and-white"
+Para correr el código, la notación es: "./Nombre_del_Programa <file_in> <file_out> <thread_number>", por ejemplo:
+"./ompBnW Input/Gato720.png Output/OMPBnWGato720 2"
 
 El Script script.sh contiene todos los comandos necesarios para instalar la librería, compilar los programas y ejecutarlos con las imágenes de diferente resolución, los resultados correspondientes a los tiempos de ejecución serán guardados en un archivo de texto plano llamado "tiemposEjecución.txt". Adicionalmente, en la carpeta de ejecución (en donde deben estar las imágenes originales guardadas) se guardarán también las imágenes obtenidas al aplicar los filtros.
 
 En caso de obtener un mensaje de tipo "bash: ./script.sh: Permission denied" al intentar ejecutar el script, puede usar el siguiente comando para dar los permisos correspondientes al scritp:
-"chmod +x test.sh"
+"chmod +x script.sh"
